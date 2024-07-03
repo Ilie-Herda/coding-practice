@@ -1,0 +1,203 @@
+* {
+    font-family: monospace;
+    font-size: 25px;
+  }
+  
+  body{
+    background-image: url(pexels-photo-1631677.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navbar ul li{
+    cursor: pointer;
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .navbar li{
+    float: right;
+    margin: 20px 20px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .navbar ul{
+    overflow: hidden;
+  }
+  .title{
+    
+    position: absolute;
+    top: 40px;
+    left: 3%;
+    font-size: 35px;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .about{
+    transition: 0.10s;
+  }
+  .about:hover{
+    border-bottom: 3px solid red;
+  }
+  .home{
+    transition: 0.10s;
+  }
+  .home:hover{
+    border-bottom: 3px solid red
+  }
+  .log-in{
+    transition: 0.10s;
+  }
+  .log-in:hover{
+    border-bottom: 3px solid red
+  }
+  .home:hover{
+    border-bottom: 3px solid red
+  }
+  .sign-up{
+    transition: 0.10s;
+  }
+  .sign-up:hover{
+    border-bottom: 3px solid red
+  }
+  
+  .firstname{
+    margin-top: 2.5rem;
+    
+  }
+  
+  .firstname{
+  margin-top: 150px;
+  margin-left: 550px;
+  margin-right: 150px;
+  border-width: 0px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  }
+  
+  .firstname::placeholder{
+    font-size: 0.7em;
+  }
+  
+  .lastname{
+  border-width: 0px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  }
+  .lastname::placeholder{
+    font-size: 0.7em;
+  }
+  .username{
+    margin-left: 550px;
+  margin-right: 150px;
+  border-width: 0px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  }
+  .username::placeholder{
+    font-size: 0.7em;
+  }
+  .email{
+  border-width: 0px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  }
+  .email::placeholder{
+    font-size: 0.7em;
+  }
+  .password{
+  margin-left: 550px;
+  margin-right: 150px;
+  border-width: 0px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  }
+  .password::placeholder{
+    font-size: 0.7em;
+  }
+  .password-confirm{
+  border-width: 0px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  }
+  .password-confirm::placeholder{
+    font-size: 0.7em;
+  }
+  .sign-up-button{
+    color: rgb(119, 38, 38);
+    background-color: aquamarine;
+    margin-left: 850px;
+    border-width: 0px;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: 0.15s;
+  }
+  .sign-up-button:hover{
+    color: aquamarine;
+    background-color: rgb(119, 38, 38);
+    cursor: pointer;
+  }
+  .terms-agree{
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgb(22, 44, 51);
+    color: rgb(255, 251, 1);
+    height: 33px;
+    left: 0px;
+    right: 0px;
+  }
+  .main-form{
+   width: 100%;
+   position: absolute;
+   background-color: rgba(185, 100, 21, 0.308);
+   left: 0;
+   right: 0;
+  }
