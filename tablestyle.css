@@ -1,0 +1,36 @@
+h1{
+    font-family: Arial;
+    color: orange;
+}
+
+table{
+    width: 50%;
+}
+
+th{
+    border-bottom: 1px solid #ddd;
+}
+
+.team{
+    width: 20%;
+}
+
+.place{
+    width: 4%;
+}
+
+.played{
+    width: 7%;
+}
+
+.win{
+    width: 7%;
+}
+
+.tie{
+    width: 7%;
+}
+
+.lost{
+    width: 7%;
+}
